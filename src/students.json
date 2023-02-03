@@ -1,0 +1,26 @@
+[
+    {
+      "name": "John Doe",
+      "age": 22,
+      "faculty": "TDI",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Jane Doe",
+      "age": 21,
+      "faculty": "TRI",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Bob Smith",
+      "age": 24,
+      "faculty": "TDI",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Alice Johnson",
+      "age": 23,
+      "faculty": "TRI",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]

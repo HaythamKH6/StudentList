@@ -1,0 +1,93 @@
+.student-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.buttons button {
+    box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    background: linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+    background-color: #b8e356;
+    border-radius: 6px;
+    border: 1px solid #83c41a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #86ae47;
+}
+
+.buttons button:hover {
+    background: linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+    background-color: #a5cc52;
+}
+
+.buttons button:active {
+    position: relative;
+    top: 1px;
+}
+
+.student-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.student-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.student-card p {
+    margin: 10px 0;
+}
+
+.student-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.student-age {
+    font-size: 18px;
+    color: #2196f3;
+}
+
+.student-faculty {
+    font-size: 16px;
+    color: #333;
+}
+
+.students-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.no-students {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
